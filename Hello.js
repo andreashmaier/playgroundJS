@@ -63,4 +63,12 @@ var addition = function (zahl1, zahl2){
 	return zahl1 + zahl2;
 };
 console.log(addition(42, 13));
+var operation = addition;
+console.log(operation(56,23));
+person.schreiWas = sagWas;
+person.schreiWas();
+person.druckInfo = function(){
+	console.log(this.vorname + ' ' + this.nachname);
+};
+person.druckInfo();
 
